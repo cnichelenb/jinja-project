@@ -5,6 +5,5 @@ select
     orderid as order_id,
     paymentmethod as payment_method,
     status,
-    amount,
-    createdat as created_at
+    amount
 from {{ source('stripe', 'payments') }}
