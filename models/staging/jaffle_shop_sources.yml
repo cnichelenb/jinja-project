@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: ANALYTICS        # <-- il tuo database Snowflake
+    schema: JAFFLE_SHOP        # <-- lo schema dove hai creato la tabella
+    tables:
+      - name: customers
+      - name: orders

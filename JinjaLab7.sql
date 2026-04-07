@@ -1,2 +1,2 @@
-select *
-from {{ ref('stg_payments') }}
+SELECT *
+FROM {{ ref('stg_payments') }}
